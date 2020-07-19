@@ -66,16 +66,7 @@
     }
 
     async function sendMsg() {
-      if(liff.getContext().type !== "none"){
-        awit liff.sendMessage([
-          {
-            "type" : "sticker",
-            "sticker" : 1,
-            "packageId" : 1
-          }
-        ])
-      }
-    }
+        }
 
     function getContext() {
       document.getElementById("type").append(liff.getContext().type)
